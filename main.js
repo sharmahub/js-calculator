@@ -35,7 +35,7 @@ jQuery(".input-grid") .click (function (e) {
       var per = jQuery("#calculator-screen-output").html();
       var perValue = eval(eval(per)/100);
       jQuery("#calculator-screen-output").html(perValue);
-      operatorExist = true; 
+      operatorExist = false; //keep the value to false
       decimalExistCount = 0; 
     }
     
